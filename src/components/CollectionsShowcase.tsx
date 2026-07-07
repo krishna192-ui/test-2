@@ -13,7 +13,7 @@ export default function CollectionsShowcase({ onSelectCategory }: CollectionsSho
       id: 'Men' as Category,
       title: "Men's Tailoring",
       subtitle: "Bespoke Royal Sherwanis & Suits",
-      image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80&w=1200",
+      image: "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&q=80&w=1200",
       description: "Step into imperial grandeur with masterfully fitted premium fabrics, tailored specifically to fit your posture."
     },
     {
@@ -27,7 +27,7 @@ export default function CollectionsShowcase({ onSelectCategory }: CollectionsSho
       id: 'Kids' as Category,
       title: "Kids Heritage",
       subtitle: "Festive Soft Kurtas & Traditional Suits",
-      image: "https://images.unsplash.com/photo-1606293926075-69a00dbfde81?auto=format&fit=crop&q=80&w=1200",
+      image: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&q=80&w=1200",
       description: "Delicate organic lining paired with bright mustard silks, designed for ultimate comfort and ceremony style."
     }
   ];
