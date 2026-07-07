@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/YOUR_REPOSITORY_NAME/',
+    base: '/test-2/',
 
     plugins: [react(), tailwindcss()],
 
