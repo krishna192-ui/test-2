@@ -13,21 +13,21 @@ export default function CollectionsShowcase({ onSelectCategory }: CollectionsSho
       id: 'Men' as Category,
       title: "Men's Tailoring",
       subtitle: "Bespoke Royal Sherwanis & Suits",
-      image: "/test-2/images/mens_sherwani_1783348635538.jpg",
+      image: "https://images.unsplash.com/photo-1597113366853-fc1920ee8159?auto=format&fit=crop&q=80&w=1200",
       description: "Step into imperial grandeur with masterfully fitted premium fabrics, tailored specifically to fit your posture."
     },
     {
       id: 'Women' as Category,
       title: "Women's Couture",
       subtitle: "Heritage Bridal Lehengas & Silk Sarees",
-      image: "/test-2/images/womens_saree_1783348649255.jpg",
+      image: "https://images.unsplash.com/photo-1610030469668-93535c17b6b3?auto=format&fit=crop&q=80&w=1200",
       description: "Immerse yourself in rich Banarasi georgettes, royal raw silk, and detailed handwoven zari borders."
     },
     {
       id: 'Kids' as Category,
       title: "Kids Heritage",
       subtitle: "Festive Soft Kurtas & Traditional Suits",
-      image: "/test-2/images/kids_traditional_1783348662154.jpg",
+      image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&q=80&w=1200",
       description: "Delicate organic lining paired with bright mustard silks, designed for ultimate comfort and ceremony style."
     }
   ];

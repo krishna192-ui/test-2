@@ -9,11 +9,11 @@ export const products: Product[] = [
     price: '₹ 1,45,000',
     priceRange: '₹ 1,45,000 - ₹ 1,85,000',
     description: 'An absolute masterpiece of heritage craftsmanship. This breathtaking crimson lehenga is meticulously hand-embroidered over 400 hours by master artisans. Featuring intricate Zardosi work, heavy gold sequin detailing, and traditional motifs that evoke the grandeur of Raipur\'s royal history.',
-    image: '/test-2/images/hero_banner_lehenga_1783348621538.jpg',
+    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=1200',
     additionalImages: [
-      '/test-2/images/hero_banner_lehenga_1783348621538.jpg',
-      '/test-2/images/craft_detail_1783348676434.jpg',
-      '/test-2/images/showroom_interior_1783348687036.jpg'
+      'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200'
     ],
     fabric: 'Pure Raw Silk',
     technique: 'Hand-stitched Zardosi',
@@ -28,10 +28,10 @@ export const products: Product[] = [
     style: 'Formal',
     price: '₹ 32,500',
     description: 'A sophisticated deep charcoal sherwani crafted from premium silk-blend brocade. Features exquisite hand-carved brass buttons, clean contemporary lines, and a structured posture. Perfect for royal receptions and groom\'s select occasions.',
-    image: '/test-2/images/mens_sherwani_1783348635538.jpg',
+    image: 'https://images.unsplash.com/photo-1597113366853-fc1920ee8159?auto=format&fit=crop&q=80&w=1200',
     additionalImages: [
-      '/test-2/images/mens_sherwani_1783348635538.jpg',
-      '/test-2/images/showroom_interior_1783348687036.jpg'
+      'https://images.unsplash.com/photo-1597113366853-fc1920ee8159?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200'
     ],
     fabric: 'Silk-Blend Brocade',
     technique: 'Precision Tailoring & Zari Hand-loops',
@@ -46,10 +46,10 @@ export const products: Product[] = [
     style: 'Ethnic',
     price: '₹ 18,900',
     description: 'A gorgeous Banarasi georgette saree in striking emerald green, displaying a magnificent real gold zari weave border. Perfect for festive celebrations and heritage gatherings, representing standard Indian elegance.',
-    image: '/test-2/images/womens_saree_1783348649255.jpg',
+    image: 'https://images.unsplash.com/photo-1610030469668-93535c17b6b3?auto=format&fit=crop&q=80&w=1200',
     additionalImages: [
-      '/test-2/images/womens_saree_1783348649255.jpg',
-      '/test-2/images/craft_detail_1783348676434.jpg'
+      'https://images.unsplash.com/photo-1610030469668-93535c17b6b3?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?auto=format&fit=crop&q=80&w=1200'
     ],
     fabric: 'Banarasi Georgette',
     technique: 'Handloom Real Zari Weaving',
@@ -64,9 +64,9 @@ export const products: Product[] = [
     style: 'Seasonal',
     price: '₹ 6,500',
     description: 'A delightful, bright mustard yellow traditional silk-blend kurta with pajamas designed for kids. Made with premium ultra-soft cotton lining to ensure comfort, elegance, and lightweight grace during festivals and family weddings.',
-    image: '/test-2/images/kids_traditional_1783348662154.jpg',
+    image: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&q=80&w=1200',
     additionalImages: [
-      '/test-2/images/kids_traditional_1783348662154.jpg'
+      'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&q=80&w=1200'
     ],
     fabric: 'Premium Silk-Blend / Soft Cotton Lining',
     technique: 'Handcrafted Neck Embroidery',
@@ -159,37 +159,37 @@ export const testimonials: Testimonial[] = [
 export const galleryItems: GalleryItem[] = [
   {
     id: 'g1',
-    image: '/test-2/images/showroom_interior_1783348687036.jpg',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200',
     title: 'Heritage Showroom Display',
     category: 'Store'
   },
   {
     id: 'g2',
-    image: '/test-2/images/hero_banner_lehenga_1783348621538.jpg',
+    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=1200',
     title: 'Crimson Couture Session',
     category: 'Couture'
   },
   {
     id: 'g3',
-    image: '/test-2/images/womens_saree_1783348649255.jpg',
+    image: 'https://images.unsplash.com/photo-1610030469668-93535c17b6b3?auto=format&fit=crop&q=80&w=1200',
     title: 'Intricate Saree Collection',
     category: 'Craft'
   },
   {
     id: 'g4',
-    image: '/test-2/images/craft_detail_1783348676434.jpg',
+    image: 'https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?auto=format&fit=crop&q=80&w=1200',
     title: 'Hands of the Artisans',
     category: 'Craft'
   },
   {
     id: 'g5',
-    image: '/test-2/images/mens_sherwani_1783348635538.jpg',
+    image: 'https://images.unsplash.com/photo-1597113366853-fc1920ee8159?auto=format&fit=crop&q=80&w=1200',
     title: 'Imperial Groom Showcase',
     category: 'Groom'
   },
   {
     id: 'g6',
-    image: '/test-2/images/kids_traditional_1783348662154.jpg',
+    image: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&q=80&w=1200',
     title: 'Joyful Kids Heritage',
     category: 'Kids'
   }
