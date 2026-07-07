@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-gold: #1A1A1A;
+  --color-gold-dark: #333333;
+  --color-maroon: #E44D26;
+  --color-maroon-dark: #c83f1d;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FDFCFB;
+  color: #1A1A1A;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Base Editorial Aesthetic overrides */
+
+/* Make headings italicized by default or use serif elegantly */
+.font-serif-luxury {
+  font-family: var(--font-serif);
+  font-style: italic;
+  letter-spacing: -0.02em !important;
+}
+
+/* Force sharp edges on elements for a premium layout/print aesthetic */
+.rounded-md,
+.rounded-lg,
+.rounded-xl,
+.rounded-2xl,
+.rounded-3xl,
+.rounded-full {
+  border-radius: 0px !important;
+}
+
+/* Smooth transitions */
+.transition-luxury {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Flat, border-based design instead of heavy drop shadows */
+.shadow-sm,
+.shadow,
+.shadow-md,
+.shadow-lg,
+.shadow-xl,
+.shadow-2xl {
+  box-shadow: none !important;
+  border: 1px solid rgba(26, 26, 26, 0.1) !important;
+}
+
+/* Unify light neutral backgrounds as print/editorial cream backgrounds */
+.bg-white {
+  background-color: #FDFCFB !important;
+}
+.bg-stone-50,
+.bg-gray-50 {
+  background-color: #F5F5F0 !important;
+}
+.bg-stone-100,
+.bg-gray-100 {
+  background-color: #EAE8E4 !important;
+}
+
+/* Ensure rich black/charcoal color throughout light sections */
+.text-stone-900,
+.text-stone-800,
+.text-gray-900,
+.text-gray-800 {
+  color: #1A1A1A !important;
+}
+.text-stone-750,
+.text-stone-700,
+.text-stone-600,
+.text-stone-500,
+.text-gray-600,
+.text-gray-500 {
+  color: rgba(26, 26, 26, 0.8) !important;
+}
+.text-stone-400,
+.text-gray-400 {
+  color: rgba(26, 26, 26, 0.5) !important;
+}
+
+/* Reset stone and gray colors inside dark sections to appropriate light shades */
+.bg-stone-900 .text-stone-400,
+.bg-stone-950 .text-stone-400,
+.bg-neutral-900 .text-stone-400,
+.bg-slate-950 .text-stone-400,
+.bg-black .text-stone-400,
+.bg-\[\#1A1A1A\] .text-stone-400,
+#app-footer .text-stone-400,
+.bg-stone-900 .text-stone-500,
+.bg-stone-950 .text-stone-500,
+.bg-neutral-900 .text-stone-500,
+.bg-slate-950 .text-stone-500,
+.bg-black .text-stone-500,
+.bg-\[\#1A1A1A\] .text-stone-500,
+#app-footer .text-stone-500,
+#app-footer .text-stone-300,
+.bg-stone-900 .text-stone-300,
+.bg-stone-950 .text-stone-300,
+.bg-neutral-900 .text-stone-300,
+.bg-slate-950 .text-stone-300,
+.bg-black .text-stone-300,
+.bg-\[\#1A1A1A\] .text-stone-300 {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Keep dark sections deep charcoal (#1A1A1A) with white text */
+.bg-stone-900,
+.bg-stone-950,
+.bg-neutral-900,
+.bg-slate-950,
+.bg-black,
+.bg-\[\#1A1A1A\],
+#app-footer {
+  background-color: #1A1A1A !important;
+  color: #FFFFFF !important;
+}
+
+.bg-stone-900 *:not(.text-maroon):not(.text-maroon *):not([class*="text-emerald"]),
+.bg-stone-950 *:not(.text-maroon):not(.text-maroon *):not([class*="text-emerald"]),
+.bg-neutral-900 *:not(.text-maroon):not(.text-maroon *):not([class*="text-emerald"]),
+.bg-slate-950 *:not(.text-maroon):not(.text-maroon *):not([class*="text-emerald"]),
+.bg-black *:not(.text-maroon):not(.text-maroon *):not([class*="text-emerald"]),
+.bg-\[\#1A1A1A\] *:not(.text-maroon):not(.text-maroon *):not([class*="text-emerald"]):not(.text-stone-400):not(.text-stone-500),
+#app-footer *:not(.text-maroon):not(.text-maroon *):not([class*="text-emerald"]):not(.text-stone-400):not(.text-stone-500) {
+  color: #FFFFFF;
+}
+
+/* Accent texts should stay bright crimson/orange-red */
+.text-maroon,
+.text-maroon * {
+  color: #E44D26 !important;
+}
+.bg-maroon {
+  background-color: #E44D26 !important;
+}
+.border-maroon {
+  border-color: #E44D26 !important;
+}
+
+/* Thin borders instead of gray ones */
+.border,
+.border-stone-50,
+.border-stone-100,
+.border-stone-200,
+.border-stone-300,
+.border-gray-100,
+.border-gray-200 {
+  border-color: rgba(26, 26, 26, 0.1) !important;
+}
+
+/* Scrollbar behaviors */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

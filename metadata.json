@@ -1,0 +1,6 @@
+{
+  "name": "Verma Fashion House",
+  "description": "A premium digital showroom and lead-generation platform for Verma Fashion House, Raipur, showcasing exquisite Indian ethnic, formal, and casual wear with integrated WhatsApp and phone inquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
