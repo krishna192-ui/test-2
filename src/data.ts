@@ -9,9 +9,9 @@ export const products: Product[] = [
     price: '₹ 1,45,000',
     priceRange: '₹ 1,45,000 - ₹ 1,85,000',
     description: 'An absolute masterpiece of heritage craftsmanship. This breathtaking crimson lehenga is meticulously hand-embroidered over 400 hours by master artisans. Featuring intricate Zardosi work, heavy gold sequin detailing, and traditional motifs that evoke the grandeur of Raipur\'s royal history.',
-    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=1200',
     additionalImages: [
-      'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=1200',
       'https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?auto=format&fit=crop&q=80&w=1200',
       'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200'
     ],
@@ -28,9 +28,9 @@ export const products: Product[] = [
     style: 'Formal',
     price: '₹ 32,500',
     description: 'A sophisticated deep charcoal sherwani crafted from premium silk-blend brocade. Features exquisite hand-carved brass buttons, clean contemporary lines, and a structured posture. Perfect for royal receptions and groom\'s select occasions.',
-    image: 'https://images.unsplash.com/photo-1597113366853-fc1920ee8159?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80&w=1200',
     additionalImages: [
-      'https://images.unsplash.com/photo-1597113366853-fc1920ee8159?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80&w=1200',
       'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200'
     ],
     fabric: 'Silk-Blend Brocade',
@@ -46,9 +46,9 @@ export const products: Product[] = [
     style: 'Ethnic',
     price: '₹ 18,900',
     description: 'A gorgeous Banarasi georgette saree in striking emerald green, displaying a magnificent real gold zari weave border. Perfect for festive celebrations and heritage gatherings, representing standard Indian elegance.',
-    image: 'https://images.unsplash.com/photo-1610030469668-93535c17b6b3?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=1200',
     additionalImages: [
-      'https://images.unsplash.com/photo-1610030469668-93535c17b6b3?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=1200',
       'https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?auto=format&fit=crop&q=80&w=1200'
     ],
     fabric: 'Banarasi Georgette',
@@ -64,9 +64,9 @@ export const products: Product[] = [
     style: 'Seasonal',
     price: '₹ 6,500',
     description: 'A delightful, bright mustard yellow traditional silk-blend kurta with pajamas designed for kids. Made with premium ultra-soft cotton lining to ensure comfort, elegance, and lightweight grace during festivals and family weddings.',
-    image: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1606293926075-69a00dbfde81?auto=format&fit=crop&q=80&w=1200',
     additionalImages: [
-      'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&q=80&w=1200'
+      'https://images.unsplash.com/photo-1606293926075-69a00dbfde81?auto=format&fit=crop&q=80&w=1200'
     ],
     fabric: 'Premium Silk-Blend / Soft Cotton Lining',
     technique: 'Handcrafted Neck Embroidery',
@@ -81,7 +81,7 @@ export const products: Product[] = [
     style: 'Formal',
     price: '₹ 55,000',
     description: 'A stunning ivory contemporary cocktail gown featuring clean drapes and premium hand-embroidered bodice accents. Styled for modern receptions with a subtle royal trail that glides gracefully.',
-    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&q=80&w=800',
     fabric: 'Italian Crepe & Tulle',
     technique: 'Custom Draping & Beaded Embroidery',
     care: 'Dry Clean Only',
@@ -95,7 +95,7 @@ export const products: Product[] = [
     style: 'Formal',
     price: '₹ 28,500',
     description: 'An immaculate navy blue bandhgala tailored in premium royal velvet. Features customized buttons, precise double-vent structure, and a personalized satin lining to deliver a perfect, comfortable evening look.',
-    image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=800',
     fabric: 'Premium Royal Velvet',
     technique: 'Classic Indo-Western Structured Cut',
     care: 'Dry Clean Only',
@@ -109,7 +109,7 @@ export const products: Product[] = [
     style: 'Casual',
     price: '₹ 12,200',
     description: 'A highly breathable pastel mint green Anarkali dress paired with floral block-printed dupatta. Effortlessly elegant and comfortable for daytime occasions or casual summer weddings.',
-    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1605289355680-7521525916ab?auto=format&fit=crop&q=80&w=800',
     fabric: 'Organic Mulmul Cotton & Organza',
     technique: 'Hand Block Printing',
     care: 'Gentle Dry Wash',
@@ -123,7 +123,7 @@ export const products: Product[] = [
     style: 'Casual',
     price: '₹ 4,800',
     description: 'A breathable linen kurta in a soothing pastel mint color. Perfectly designed for Raipur\'s summers, featuring coconut shell buttons, lightweight weave, and a relaxed, classic fit.',
-    image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=800',
     fabric: '100% Pure Italian Linen',
     technique: 'Reinforced Tailoring',
     care: 'Machine Wash Cold',
@@ -165,13 +165,13 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'g2',
-    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=1200',
     title: 'Crimson Couture Session',
     category: 'Couture'
   },
   {
     id: 'g3',
-    image: 'https://images.unsplash.com/photo-1610030469668-93535c17b6b3?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=1200',
     title: 'Intricate Saree Collection',
     category: 'Craft'
   },
@@ -183,13 +183,13 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'g5',
-    image: 'https://images.unsplash.com/photo-1597113366853-fc1920ee8159?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80&w=1200',
     title: 'Imperial Groom Showcase',
     category: 'Groom'
   },
   {
     id: 'g6',
-    image: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1606293926075-69a00dbfde81?auto=format&fit=crop&q=80&w=1200',
     title: 'Joyful Kids Heritage',
     category: 'Kids'
   }

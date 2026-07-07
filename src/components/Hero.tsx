@@ -12,7 +12,7 @@ export default function Hero({ onExploreClick }: HeroProps) {
       {/* Background Image Layer */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=1600"
+          src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=1600"
           alt="Verma Fashion House Heritage Bridal Collection"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center opacity-85 scale-105 animate-pulse-slow"
