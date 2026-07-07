@@ -40,7 +40,7 @@ export default function About({ onBrowseProducts }: AboutProps) {
             {/* Immersive Image (Right 7 Columns) */}
             <div id="about-heritage-photo" className="lg:col-span-7 rounded-none overflow-hidden aspect-[16/10] bg-[#EAE8E4] border border-[#1A1A1A]/10">
               <img
-                src="/src/assets/images/showroom_interior_1783348687036.jpg"
+                src="/test-2/images/showroom_interior_1783348687036.jpg"
                 alt="Verma Fashion House Showroom Interior"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
@@ -116,7 +116,7 @@ export default function About({ onBrowseProducts }: AboutProps) {
         {/* Background Image overlay */}
         <div className="absolute inset-0 z-0 opacity-20">
           <img
-            src="/src/assets/images/craft_detail_1783348676434.jpg"
+            src="/test-2/images/craft_detail_1783348676434.jpg"
             alt="Hand embroidery craftsmanship"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"

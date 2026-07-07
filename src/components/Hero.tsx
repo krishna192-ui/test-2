@@ -12,7 +12,7 @@ export default function Hero({ onExploreClick }: HeroProps) {
       {/* Background Image Layer */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_banner_lehenga_1783348621538.jpg"
+          src="/test-2/images/hero_banner_lehenga_1783348621538.jpg"
           alt="Verma Fashion House Heritage Bridal Collection"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center opacity-85 scale-105 animate-pulse-slow"
